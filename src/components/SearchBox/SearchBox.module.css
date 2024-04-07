@@ -1,0 +1,19 @@
+.wraper {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: blue;
+}
+.field {
+  display: flex;
+  width: 400px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid;
+}
+
+.field:hover {
+  border-color: rgb(104, 188, 14);
+}

@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  padding: 12px 16px;
+  border-radius: 6px;
+  width: 450px;
+}
+
+.field {
+  display: flex;
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid;
+}
+
+.field:hover {
+  border-color: rgb(104, 188, 14);
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(253, 253, 253);
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid rgb(25, 26, 28);
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}
+
+.error {
+  color: red;
+}
